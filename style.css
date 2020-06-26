@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+:root {
+    font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+  box-sizing: border-box;
+}
+
+body {
+    flex-flow: column nowrap;
+    font-size: 1.5
+}
+
+.top-header {
+  background: #00344d;
+  height: 10rem;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.header-spacer {
+  flex: 1 1 0px;
+  height: 100%;
+}
+
+.header-text {
+  flex: 0 0 auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.logo {
+  height: 5rem;
+  width: auto;
+  padding: 1rem;
+}
+
+.team-members {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 100%;
+    align-items: baseline;
+}
+
+.bio {
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 30rem;
+    margin-bottom: 1.5rem;
+    box-shadow: .2rem .4rem 1rem .3rem rgba(0,0,0,0.5);
+    background-color:#00344d;
+    color: white; 
+    font-family: "Montserrat", sans-serif;
+    border-radius: .7rem;
+}
+
+.bio summary {
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+.bio summary h2 {
+    margin-bottom: 1.5rem;
+}
+
+.profile-pic {
+    height: 10rem;
+    width: auto;
+    border-radius: .7rem;
+    margin-bottom: 1.5rem;
+}
+
+.music {
+    height: auto;
+    width: 100%;
+    border-radius: .7rem;
+    margin-top: 1.5rem;
+}
+
+i {
+    color: hotpink;
+    
+}
